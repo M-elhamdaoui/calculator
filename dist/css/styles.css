@@ -1,1 +1,180 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 100%;
+  line-height: 1.3;
+  font-family: "Segoe UI" sans-serif;
+}
+
+.calc {
+  height: 100vh;
+  background-color: #32B28E;
+  color: #F5EBE0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc h2 {
+  cursor: pointer;
+}
+
+.calc__container {
+  background-color: #0C0409;
+  width: 596px;
+  height: 633px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calc__screen {
+  margin-top: 46px;
+  background-color: #242121;
+  width: 549px;
+  height: 88px;
+  border-radius: 15px;
+  font-size: 60px;
+  vertical-align: middle;
+}
+
+.calc__buttons {
+  margin-top: 48px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc__numbers {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  width: 290px;
+  justify-self: flex-start;
+  justify-content: space-between;
+}
+
+.calc__numbers div {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calc__numbers .r2, .calc__numbers .r3, .calc__numbers .r4 {
+  margin-top: 20px;
+}
+
+.calc__numbers h2 {
+  background-color: #A58961;
+  width: 72px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.calc__numbers .r4 {
+  font-size: 40px;
+}
+
+.calc__numbers .r4 .h1 {
+  align-self: center;
+  font-size: 50px;
+  height: 60px;
+  width: 100px;
+  border-radius: 35px;
+}
+
+.calc__numbers .r4 .h2 {
+  align-self: center;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  padding-top: -20px;
+  border-radius: 50%;
+}
+
+.calc__numbers .r4 .h3 {
+  background-color: #BF2533;
+  font-size: 50px;
+  height: 60px;
+  width: 90px;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 25px;
+}
+
+.calc__operations {
+  width: 237px;
+  display: flex;
+  font-size: 40px;
+  justify-self: flex-start;
+  justify-content: space-around;
+}
+
+.calc__operations h2 {
+  background-color: #11223B;
+  text-align: center;
+  vertical-align: middle;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calc__operations .eq {
+  background-color: #F58723;
+}
+
+.calc__operations .c {
+  background-color: #BF2533;
+}
+
+.calc__operations .c1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.calc__operations .c1 .p {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.calc__operations .pad {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.calc__operations .c2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.calc .one .two .three {
+  margin-top: 0px !important;
+}
+/*# sourceMappingURL=styles.css.map */
