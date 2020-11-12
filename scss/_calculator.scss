@@ -8,6 +8,7 @@
     h2{
         cursor: pointer;
         user-select: none;
+        
     }
   
     &__container{
@@ -21,13 +22,14 @@
         
     }
     &__screen{
+        overflow: hidden;
         margin-top: 46px;
         background-color: #242121;
         width: 549px;
-        height: 88px;
+        height: 108px;
         border-radius: 15px;
         font-size: 60px;
-        
+        box-sizing: border-box;
         vertical-align: middle;
         
     }

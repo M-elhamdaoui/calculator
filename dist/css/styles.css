@@ -4,7 +4,7 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -42,12 +42,14 @@ body {
 }
 
 .calc__screen {
+  overflow: hidden;
   margin-top: 46px;
   background-color: #242121;
   width: 549px;
-  height: 88px;
+  height: 108px;
   border-radius: 15px;
   font-size: 60px;
+  box-sizing: border-box;
   vertical-align: middle;
 }
 
