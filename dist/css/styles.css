@@ -28,6 +28,7 @@ body {
 
 .calc h2 {
   cursor: pointer;
+  user-select: none;
 }
 
 .calc__container {
